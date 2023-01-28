@@ -2,7 +2,7 @@
 - 👀 I’m interested in software engineering, space, finance ...
 - 🌱 I’m currently learning AWS
 - 💞️ I’m looking to collaborate on as many projects as possible
-- 📫 How to reach me: @Valoulou165 on Twitter
+- 📫 How to reach me: [Twitter](https://twitter.com/Valoulou165) or [LinkedIn](https://www.linkedin.com/in/valentin-menoret/)
 
 <!---
 Spookywy/Spookywy is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
