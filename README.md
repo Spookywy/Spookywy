@@ -1,8 +1,10 @@
-- 👋 Hi, I’m @Spookywy
-- 👀 I’m interested in software engineering, space, finance ...
-- 🌱 I’m currently learning AWS
-- 💞️ I’m looking to collaborate on as many projects as possible
-- 📫 How to reach me: [Twitter](https://twitter.com/Valoulou165) or [LinkedIn](https://www.linkedin.com/in/valentin-menoret/)
+Hello 👋 my name is Valentin Menoret (@Spookywy).
+
+I am a 25 years old software engineer with a passion for new technologies and a strong desire to constantly improve my craft.
+
+I graduated from 🎓[IMT Atlantique](https://www.imt-atlantique.fr/fr) in 2022 with a master’s degree in software engineering.
+
+I’m always eager to learn and collaborate with other enthusiasts while working on interesting and meaningful projects 👨🏻‍💻.
 
 <!---
 Spookywy/Spookywy is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
