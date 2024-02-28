@@ -1,0 +1,29 @@
+name: Age calculator
+on:
+  schedule:
+    - cron: "0 0 1 2 *"
+  workflow_dispatch:
+
+jobs:
+  calculate_age:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Calculate age
+        id: age_step
+        run: age=$(($(date +%Y) - 1998)) && echo "age=$age" >> $GITHUB_OUTPUT
+      - name: Apply age to README
+        run: |
+          sed -i "s/[0-9]* years old/${{ steps.age_step.outputs.age }} years old/" README.md
+      - name: Configure git
+        run: |
+          git config --global user.email $MY_EMAIL
+          git config --global user.name "Valentin Menoret"
+        env:
+          MY_EMAIL: ${{ secrets.MY_EMAIL }}
+      - name: Commit and push modification to repository
+        run: |
+          git diff --quiet || (git add . && git commit -m "🤖 Updating my age [GitHub Action]" && git push)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
