@@ -1,6 +1,6 @@
 Hello 👋 my name is Valentin Menoret (@Spookywy).
 
-I am a 25 years old software engineer with a passion for new technologies and a strong desire to constantly improve my craft.
+I am a 26 years old software engineer with a passion for new technologies and a strong desire to constantly improve my craft.
 
 I graduated from 🎓[IMT Atlantique](https://www.imt-atlantique.fr/fr) in 2022 with a master’s degree in software engineering.
 
